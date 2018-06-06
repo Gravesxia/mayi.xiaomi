@@ -1,0 +1,144 @@
+.header{
+    width: 100%;
+    height:100px;
+}
+.header .logo{
+    width: 70%;
+    margin:0 auto;
+}
+.content{
+    height:588px;
+    background:url(/static/images/bg.jpg) no-repeat center;
+    position: relative;
+}
+.content .login_box{
+    width:410px;
+    height:525px;
+    background:#fff;
+    position: absolute;
+    top:50%;
+    right:220px;
+    margin-top:-262.5px;
+}
+.login_box .login_con{
+    width: 350px;
+    height: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -230px;
+    margin-left: -175px;
+}
+.login_con .type{
+    width:171px;
+    height:30px;
+    display:inline-block;
+    margin-bottom:30px;
+    cursor:pointer;
+}
+.login_con .cur{
+    color:#EF5B00;
+}
+.login_con .type p{
+    font-size:24px;
+    text-align: center;
+}
+.login_con .type p:hover{
+    color:#EF5B00;
+}
+.login_con .login_psd{
+    border-right:2px solid #ccc;
+}
+.login_con .login_form{
+    width:100%;
+    height:50px;
+    margin-bottom:20px;
+}
+.login_con .login_form input{
+    width: 100%;
+    height: 100%;
+    padding-left:10px;
+    box-sizing:border-box;
+    border:1px solid #ccc;
+}
+.login_con .errorText{
+    margin: -10px 0 7px 0;
+    position: relative;
+    display:none;
+}
+.login_con .errorText .iconfont,.login_con .errorText span{
+    color:#F5661F;
+    margin-left: 20px;
+}
+.login_con .errorText em{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:url(/static/images/icon_user.png) no-repeat;
+    background-position:-48px 4px;
+    position: absolute;
+    top:-1px;
+    left:0px;
+}
+.login_con .submit{
+    margin:30px 0px 10px 0px;
+}
+.login_con .submit a{
+    display:block;
+    width: 100%;
+    height: 100%;
+    line-height:50px;
+    background:#EF5B00;
+    text-align: center;
+    color:#fff;
+}
+.login_con .tip a:nth-child(2),.login_con .tip a:nth-child(3){
+    float:right;
+}
+.login_con .tip a:nth-child(2){
+    margin-left:5px;
+}
+.login_con .tip a:hover{
+    color:#EF5B00;
+}
+.login_con .login_other{
+    width: 350px;
+    position: absolute;
+    bottom:-10px;
+
+}
+.login_other fieldset{
+    text-align: center;
+    color:#aaa;
+    border:0px;
+    border-top:1px solid #ccc;
+}
+.login_other ul{
+    width: 80%;
+    margin:0 auto;
+}
+.login_other ul li{
+    float:left;
+    margin:12px 18px;
+}
+.login_other ul li a{
+    text-decoration: none;
+}
+.login_other ul li a .iconfont{
+    font-size:30px;
+}
+.login_other ul li:nth-child(2) i{
+    font-size:32px;
+}
+.login_other ul li:nth-child(1) i:hover{
+    color:#0288D1;
+}
+.login_other ul li:nth-child(2) i:hover{
+    color:#D32F2F;
+}
+.login_other ul li:nth-child(3) i:hover{
+    color:#00AAEE;
+}
+.login_other ul li:nth-child(4) i:hover{
+    color:#00D20D;
+}
