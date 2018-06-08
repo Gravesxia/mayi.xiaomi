@@ -26,4 +26,10 @@ public class LoginController {
         Map<String,Object> map = userServer.queryUser(id);
         return map;
     }
+
+    @RequestMapping(value = "/loginup",method = RequestMethod.GET)
+    public Map<String,Object> loginup(@RequestParam Long id){
+        Map<String,Object> map = userServer.queryUser(id);
+        return map;
+    }
 }

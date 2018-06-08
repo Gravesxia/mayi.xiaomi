@@ -1,0 +1,30 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8050/eureka/
+server:
+  port: 8054
+spring:
+  application:
+    name: server-zuul
+  thymeleaf:
+      prefix:classpath:/templates/
+      cache：false
+  redis:
+    host: localhost
+    password:
+    port: 6379
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+zuul:
+  routes:
+    api-a:
+      path: /**
+      serviceId: server-home
+      sensitiveHeaders:
+#    api-b:
+#       path: /user/**
+#       serviceId: server-user
